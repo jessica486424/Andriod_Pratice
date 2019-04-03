@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Antibiotic＿Calculation</string>
+    <string name="app_name">Vancocalc</string>
     <string name="crea">Crea:</string>
     <string name="age">Age:</string>
     <string name="weight">Weight:</string>
