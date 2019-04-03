@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Antibiotic＿Calculation</string>
+    <string name="crea">Crea:</string>
+    <string name="age">Age:</string>
+    <string name="weight">Weight:</string>
+    <string name="_0_7">0.7</string>
+    <string name="_61">61</string>
+    <string name="_77_4">77.4</string>
+    <string name="calculate">Calculate</string>
+    <string name="dose">Dose:</string>
+    <string name="freq">Freq:</string>
+    <string name="_1000">1000</string>
+</resources>
