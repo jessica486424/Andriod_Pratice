@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText mWeight;
     private EditText mDose;
     private EditText mFre;
+    private EditText mGen;
 
     private TextView mResult1;
     private TextView mResult2;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         mResult1=findViewById(R.id.Result1Textview);
         mResult2=findViewById(R.id.Result2Textview);
         mAge=findViewById(R.id.AgeInput);
+        mGen=findViewById(R.id.GenderInput);
 
     }
 
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if(crea<=0.8) {
             crea = 0.8;
         }
-        Ccr=(140-age)*weight/72/crea;
+        Ccr=(140-age)*weight/72/crea-0.15*(140-age)*weight/72/crea*getOperand(mGen);
         return  Ccr;
     }
 
